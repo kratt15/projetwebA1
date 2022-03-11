@@ -1,0 +1,67 @@
+
+body
+{
+	background-color: whitesmoke;
+}
+form
+{
+	margin: 100px 100px 100px 200px;
+}
+.boite1
+{
+	background-color:  rgba(0, 0, 0, .1);
+	opacity: ;
+	border-radius: 7px;
+	border:0px hidden whitesmoke ;
+	width: 350px;
+	padding:10px ;
+	font-family: arial,didot,futura;
+
+}
+.champdesaisie
+{
+	border: none;
+	border-radius: 1px;
+	height: 30px;
+	background-color: transparent;
+	 border-bottom:1px solid black ;
+	 outline: none;
+	 font-family: arial;
+	 
+}
+#btnvalide
+{
+	background-color: transparent;
+	color: green;
+	border: 1px solid green;
+	border-radius: 6px;
+	width: 100px;
+	height: 30px;
+
+}
+#btnvalide:hover
+{
+	background-color: green;
+	color: whitesmoke;
+}
+
+#codeqr
+{
+	
+	height: 200px;
+	width: 200px;
+	margin: 250px 100px 400px 100px;
+}
+
+.part
+{
+	display: flex;
+
+}
+.ligne
+{
+border-left: 4px solid black; 
+height: 500px; 
+display: inline-block;	
+margin-top: 100px;
+}
